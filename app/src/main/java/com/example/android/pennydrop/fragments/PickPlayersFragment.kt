@@ -36,7 +36,7 @@ class PickPlayersFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        val binding = FragmentPickPlayersBinding.inflate(inflater)
+        val binding = FragmentPickPlayersBinding.inflate(inflater, container, false)
         return binding.root
     }
 
